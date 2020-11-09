@@ -17,3 +17,12 @@ class Car:
     def get_year(self):
         print(self.year)
     
+# inhiritance / turunan
+# bisa menggunakan methods & var dari parentnya
+
+class Truck(Car):
+    def __init__(self, company, speed, color, year):
+        self.company = company
+        self.speed = speed
+        self.color = color
+        self.year = year
