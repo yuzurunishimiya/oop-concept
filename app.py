@@ -1,4 +1,4 @@
-from cars import Car
+from cars import Car, Truck
 
 
 if __name__ == "__main__":
@@ -7,3 +7,7 @@ if __name__ == "__main__":
     car.get_company()
     car.get_speed()
     car.get_year()
+
+    truck = Truck("Yamaha", 240, "Green", "2018")
+    print("Speed of truct is:")
+    truck.get_speed()
